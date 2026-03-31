@@ -1,0 +1,33 @@
+:root {
+  --bg-primary: #fdfcfd;
+  --bg-secondary: #f9f8f9;
+  --text-primary: #1a1a1a;
+  --text-secondary: #7a7a7a;
+  --accent-pink: #d94e7b;
+  --accent-pink-soft: #fcf1f5;
+  --border-light: rgba(0, 0, 0, 0.05);
+  --shadow-soft: 0 10px 30px rgba(0, 0, 0, 0.03);
+  --font-serif: 'Playfair Display', serif;
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+button, input {
+  font-family: inherit;
+}
